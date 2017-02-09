@@ -1,0 +1,21 @@
+*{ margin: 0; padding: 0; }
+.clear { content: ''; display: table; clear: both; }
+body { font-family: "Microsoft YaHei"; overflow: hidden; }
+div { cursor: default; }
+img { width: 100%; display: block; }
+a:active, a:link, a:hover, a:visited { color: #000; text-decoration: none; }
+li { list-style: none; }
+
+h1 { font-size: 26px; text-align: center; }
+.sildePic { padding-top:20px; }
+#banner { position: relative; height: 440px; overflow: hidden; border: 1px #000 solid; }
+#banner #slide { position: absolute; width: 2530px; overflow: hidden; /*top: -50%; margin-top: 110px;*/ }
+#banner #slide img { width: 100%; display: block; }
+#banner #slide ul li { position: relative; float: left; width: 110px; height: 110px; border: 1px #ddd solid; box-sizing: border-box; }
+#banner #slide ul li:hover { border: 2px #000 solid; }
+#banner #slide ul li:nth-child(24) { margin-left: -50px; }
+#banner #slide ul li:nth-child(70) { margin-left: -50px; }
+#banner #slide ul li:nth-child(116) { margin-left: -50px; }
+#banner #slide ul li .surface { position: absolute; opacity: 1; z-index: 1; width: 100%; height: 100%; top: 0; background: rgba(0, 0, 0, 0.4); transition: opacity 0.25s; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s; -o-transition: opacity 0.25s; }
+#banner #slide ul li:hover .surface { opacity: 0; z-index: -1; }
+
